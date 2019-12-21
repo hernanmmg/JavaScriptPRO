@@ -27,7 +27,7 @@ Esta entre medio del Stack y la cola de tareas, preguntando si hay tareas.. y pr
 [Queue]. Primero que entra es lo primero que sale, encolamos tareas
 
 [Schedule_Tasks]. Aquí se agregan a la cola, las tareas programadas para su ejecución. (1)
-[Task_Queue]. Aquí se agregan las tares que ya están listas para pasar al stack y ser. (2)
+[Task_Queue]. Aquí se agregan las tares que ya están listas para pasar al stack y ser ejecutadas. (2)
 
 ejecutadas. El stack debe estar vacío para que esto suceda.
 [MicroTask_Queue]. Aquí se agregan las promesas. Esta Queue es la que tiene mayor prioridad.(0) (Promises)
